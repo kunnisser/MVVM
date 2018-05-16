@@ -8,6 +8,10 @@ class MVVM {
         this.created();
         this.beforeMount();
         this.mounted();
+        this.beforeupdate();
+        this.updated();
+        this.beforedestroy();
+        this.destroyed();
     }
 
     beforeCreate () {
